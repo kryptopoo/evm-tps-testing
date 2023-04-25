@@ -1,0 +1,31 @@
+{
+  "name": "evm-tps-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-worker test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryptopoo/evm-tps-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kryptopoo/evm-tps-testing/issues"
+  },
+  "homepage": "https://github.com/kryptopoo/evm-tps-testing#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "axios": "^1.3.6",
+    "dotenv": "^16.0.3",
+    "hardhat-gas-reporter": "^1.0.9",
+    "minimist": "^1.2.8"
+  }
+}
