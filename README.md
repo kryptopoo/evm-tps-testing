@@ -46,3 +46,7 @@ node index.js tps
 | c6a.2xlarge <br /> 8 vCPU - 16GB     | 64   | 64   | 3    | [49](result/mantle_tps_49.json)   |
 | c6a.2xlarge <br /> 8 vCPU - 16GB     | 128  | 128  | 6    | [95](result/mantle_tps_95.json)    |
 | c6a.8xlarge <br /> 32 vCPU - 64GB    | 192  | 192  | 9    | [152](result/mantle_tps_152.json)   |
+| c6a.8xlarge <br /> 32 vCPU - 64GB    | 192  | 256  | 3    | [215](result/mantle_tps_215.json)   |
+| c6a.8xlarge <br /> 32 vCPU - 64GB    | 192  | 384  | 3    | [237](result/mantle_tps_237.json)   |
+
+TPS it could be higher...
