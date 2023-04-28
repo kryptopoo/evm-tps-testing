@@ -43,10 +43,12 @@ node index.js tps
 
 | cpu        | thread  | account/wallet | transactions  | tps  | remark  |
 |--|--|--|--|--|--|
-| c6a.2xlarge <br /> 8 vCPU - 16GB     | 64   | 64   | 3    | [49](result/mantle_tps_49.json)   |  |
-| c6a.2xlarge <br /> 8 vCPU - 16GB     | 128  | 128  | 6    | [95](result/mantle_tps_95.json)    |  |
-| c6a.4xlarge <br /> 16 vCPU - 32GB    | 192  | 192  | 9    | [152](result/mantle_tps_152.json)   | server error |
-| c6a.4xlarge <br /> 16 vCPU - 32GB    | 192  | 192  | 3    | [215](result/mantle_tps_215.json)   | concurrent |
-| c6a.4xlarge <br /> 16 vCPU - 32GB    | 384  | 384  | 3    | [237](result/mantle_tps_237.json)   | concurrent <br/> INSUFFICIENT_FUNDS |
-| c6a.4xlarge <br /> 16 vCPU - 32GB    | 384  | 384  | 4    | [314](result/mantle_tps_314.json)   | concurrent |
-| c6i.8xlarge <br /> 32 vCPU - 64GB    | 512  | 512  | 4    | [633](result/mantle_tps_633.json)   | concurrent |
+| c6a.2xlarge <br /> 8 vCPU - 16GB     | 64   | 64    | 3    | [49](result/mantle_tps_49.json)     |  |
+| c6a.2xlarge <br /> 8 vCPU - 16GB     | 128  | 128   | 6    | [95](result/mantle_tps_95.json)     |  |
+| c6a.4xlarge <br /> 16 vCPU - 32GB    | 192  | 192   | 9    | [152](result/mantle_tps_152.json)   | server error |
+| c6a.4xlarge <br /> 16 vCPU - 32GB    | 192  | 192   | 3    | [215](result/mantle_tps_215.json)   | concurrent |
+| c6a.4xlarge <br /> 16 vCPU - 32GB    | 384  | 384   | 3    | [237](result/mantle_tps_237.json)   | concurrent <br/> INSUFFICIENT_FUNDS |
+| c6a.4xlarge <br /> 16 vCPU - 32GB    | 384  | 384   | 4    | [314](result/mantle_tps_314.json)   | concurrent |
+| c6i.8xlarge <br /> 32 vCPU - 64GB    | 512  | 512   | 4    | [633](result/mantle_tps_633.json)   | concurrent |
+| c6i.8xlarge <br /> 32 vCPU - 64GB    | 512  | 768   | 4    | [735](result/mantle_tps_735.json)   | concurrent |
+| c6i.8xlarge <br /> 32 vCPU - 64GB    | 512  | 1024  | 6    | [791](result/mantle_tps_791.json)   | concurrent <br/> NETWORK_ERROR |
