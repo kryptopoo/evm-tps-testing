@@ -57,6 +57,12 @@ const getChildWallet = (index) => {
   return childWallet;
 };
 
+const getWallet = (index, rpcUrl) => {
+  const networkProvider = new JsonRpcProvider(rpcUrl);
+  const childWallet = ethers.Wallet.fromMnemonic(process.env.MNEMONIC, `m/44'/60'/${index}'/0/0`).connect(networkProvider);
+  return childWallet;
+};
+
 const createWallet = () => {
   const newWallet = ethers.Wallet.createRandom();
   return newWallet;
@@ -64,6 +70,7 @@ const createWallet = () => {
 
 module.exports = {
   createWallet: createWallet,
+  getWallet: getWallet,
   transfer: transfer,
   getParentWallet: getParentWallet,
   getChildWallet: getChildWallet,
