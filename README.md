@@ -49,3 +49,4 @@ node index.js tps
 | c6a.8xlarge <br /> 32 vCPU - 64GB    | 192  | 192  | 3    | [215](result/mantle_tps_215.json)   | concurrent |
 | c6a.8xlarge <br /> 32 vCPU - 64GB    | 384  | 384  | 3    | [237](result/mantle_tps_237.json)   | concurrent <br/> INSUFFICIENT_FUNDS |
 | c6a.8xlarge <br /> 32 vCPU - 64GB    | 384  | 384  | 4    | [314](result/mantle_tps_314.json)   | concurrent <br/> |
+| c6a.8xlarge <br /> 32 vCPU - 64GB    | 384  | 384  | 4    | [345](result/mantle_tps_345.json)   | concurrent <br/> |
